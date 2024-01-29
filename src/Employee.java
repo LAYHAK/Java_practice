@@ -10,11 +10,7 @@ public class Employee {
     String rate;
     float tax;
 
-    public static void main(String[] args) {
-        Employee employee = new Employee();
-        employee.workerInput(new Scanner(System.in));
-        employee.workerInfo();
-    }
+
 
     private float salary() {
         return Float.parseFloat(hours) * Float.parseFloat(rate);
